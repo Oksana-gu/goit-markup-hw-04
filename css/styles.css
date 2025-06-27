@@ -177,6 +177,16 @@ img {
     width: 264px;
     width: calc((100% - 72px) / 4);
 }
+.twosection-div {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #f4f4fd;
+}
+.twosection-svg {
+   margin: 24px 100px;
+}
 .twosection-title {
     font-weight: 700;
     font-size: 40px;
@@ -247,6 +257,14 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+}
+.icons-svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-left: 16px;
+    margin-bottom: 32px;
 }
 
 .foursection {
