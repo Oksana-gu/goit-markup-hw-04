@@ -116,8 +116,9 @@ img {
 }
 
 .onesection {
-    background-color: #2e2f42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    background-size: cover;
 }
 .onesection-title {
     font-weight: 700;
@@ -128,6 +129,7 @@ img {
     box-sizing: border-box;
     color: #fff;
     max-width: 496px;
+    margin: 0 auto;
     }
 
 .button {
@@ -166,8 +168,6 @@ img {
     }
     
 .twosection-ull {
-    width: 1128px;
-    margin: 123px 15px 106px 15px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
