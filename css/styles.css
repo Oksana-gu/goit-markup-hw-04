@@ -93,8 +93,7 @@ img {
 .nav-link.current {
     position: relative;
     color: #404bbf;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link.current::after {
@@ -125,8 +124,7 @@ img {
     color: #434455;
     text-decoration: none;
     cursor: pointer;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contakt-link:hover {
@@ -180,8 +178,7 @@ img {
     border: none;
     cursor: pointer;
     margin-top: 48px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .onesection-button:hover {
@@ -297,8 +294,7 @@ img {
 .icons-svg-li {
     height: 40px;
     width: 40px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foursection {
     padding: 120px 0 120px 0;
@@ -339,8 +335,7 @@ img {
 .div-img {
     position: relative;
     overflow: hidden;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .lii-overlay {
     background-color: #4d5ae5;
@@ -454,8 +449,7 @@ img {
 .foter-icon-li {
     height: 40px;
     width: 40px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foter-icon {
     display: flex;
